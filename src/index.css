@@ -1,0 +1,42 @@
+.clickable:hover {
+    cursor: pointer;
+}
+.ticket {
+    width: 100%;
+    position: relative;
+    border: 2px solid #979797;
+    background: #ffffff;
+    color: #979797;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    padding: 1em 2em;
+}
+.ticket:before,
+.ticket:after{
+    height:280px;
+    width:45px;
+    content: '';
+    position: absolute;
+    top: 10em;
+    top: calc(10em - 1px);
+    height: 1.2em;
+    width: 0.6em;
+    border: 2px solid #979797;
+}
+.ticket:before {
+    left: -2px;
+    border-radius: 0 1em 1em 0;
+    border-left-color: #ffffff;
+}
+.ticket:after {
+    right: -2px;
+    border-radius: 1em 0 0 1em;
+    border-right-color: #ffffff;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 600px;
+    overflow: auto;
+  }
