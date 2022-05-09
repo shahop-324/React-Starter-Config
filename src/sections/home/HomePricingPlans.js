@@ -7,9 +7,7 @@ import { Box, Grid, Card, Link, Stack, Button, Divider, Container, Typography } 
 import Image from '../../components/Image';
 import Iconify from '../../components/Iconify';
 import { MotionInView, varFade } from '../../components/animate';
-import Silver from "../../assets/coin.png";
-import Gold from "../../assets/Yearly.png";
-import Unicorn from "../../assets/Lifetime.png";
+
 
 // ----------------------------------------------------------------------
 
@@ -23,49 +21,6 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-const _homePlans = [{
-  img: Silver,
-  commons: ['4% Transaction Charge','10 Stores', '15 Staff Member / Store', 'Custom Domain & Email', 'All Premium Themes', 'Custom Marketing Messages', 'Unlimited Discounts', 'Customer Reviews'],
-  license: 'FREE',
-  options: [
-    'Store Management',
-    'Customer Management',
-    'Catalouge (Sub category, Division)',
-    'Unlimited Products',
-    'Super coins',
-    'Referrals',
-    'Custom Pages & Menus'
-  ],
-  price: 'Rs. 0/-'
-}, {
-  img: Gold,
-  license: 'MONTHLY',
-  commons: ['2% Transaction Charge', '10 Stores', '15 Staff Member / Store', 'Custom Domain & Email', 'All Premium Themes', 'Custom Marketing Messages', 'Unlimited Discounts', 'Customer Reviews'],
-  options: [
-    'Store Management',
-    'Customer Management',
-    'Catalouge (Sub category, Division)',
-    'Unlimited Products',
-    'Super coins',
-    'Referrals',
-    'Custom Pages & Menus'
-  ],
-  price: 'Rs. 2400/-'
-}, {
-  img: Unicorn,
-  license: 'YEARLY',
-  commons: ['1% Transaction Charge', '10 Stores', '15 Staff Member / Store', 'Custom Domain & Email', 'All Premium Themes', 'Custom Marketing Messages', 'Unlimited Discounts', 'Customer Reviews'],
-  options: [
-    'Store Management',
-    'Customer Management',
-    'Catalouge (Sub category, Division)',
-    'Unlimited Products',
-    'Super coins',
-    'Referrals',
-    'Custom Pages & Menus'
-  ],
-  price: 'Rs. 15000/-'
-}]
 
 export default function HomePricingPlans() {
   const theme = useTheme();
@@ -97,13 +52,7 @@ export default function HomePricingPlans() {
         </Box>
 
         <Grid container spacing={5}>
-          {_homePlans.map((plan, index) => (
-            <Grid key={index} item xs={12} md={4}>
-              <MotionInView variants={index*1 === 1 ? varFade().inDown : varFade().inUp}>
-                <PlanCard plan={plan} />
-              </MotionInView>
-            </Grid>
-          ))}
+          
         </Grid>
 
         <MotionInView variants={varFade().in}>
@@ -213,7 +162,7 @@ function PlanCard({ plan }) {
         </Stack>
 
         <Stack direction="row" justifyContent="flex-end">
-          <Link
+          {/* <Link
             color="text.secondary"
             underline="always"
             target="_blank"
@@ -222,7 +171,7 @@ function PlanCard({ plan }) {
             sx={{ typography: 'body2', display: 'flex', alignItems: 'center' }}
           >
             Learn more <Iconify icon={'eva:chevron-right-fill'} width={20} height={20} />
-          </Link>
+          </Link> */}
         </Stack>
 
         <Button

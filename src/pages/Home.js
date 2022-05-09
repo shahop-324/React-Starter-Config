@@ -34,28 +34,28 @@ export default function HomePage() {
   return (
     <Page title="Create your online business in 15 Seconds">
       <RootStyle>
-        <HomeHero />
-        <ContentStyle>
+        {/* <HomeHero /> */}
+        {/* <ContentStyle> */}
           {/* BRING ONLINE */}
 
           {/* // ? SHOW THEM MOBILE APP AND HOOK THEM HERE => CLEAR MSG TO INSTALL VIA LINK OR QR CODE => ASK FOR MOBILE NUMBER TO SEND APP LINK => Say, Manage your Business on Mobile */}
 
-          <HomeTagLine />
+          {/* <HomeTagLine /> */}
 
           {/* START YOUR BUSINESS IN 3 EASY STEPS */}
 
           {/* STEP 1 => Sign up => CTA */}
-          <HomeHugePackElements />
+          {/* <HomeHugePackElements /> */}
 
           {/* STEP 2 => Add Store Details => CTA */}
-          <HomeDarkMode />
+          {/* <HomeDarkMode /> */}
 
           {/* STEP 3 => Add Products & start selling => CTA */}
-          <HomeColorPresets />
+          {/* <HomeColorPresets /> */}
 
-          <HomeCleanInterfaces />
+          {/* <HomeCleanInterfaces /> */}
 
-          <Box sx={{ my: 3 }}>
+          {/* <Box sx={{ my: 3 }}>
             <Container>
               <Stack direction="row" alignItems="center" justifyContent="center">
                 <Typography variant="h3">Easiest and powerful way to sell online</Typography>
@@ -63,9 +63,9 @@ export default function HomePage() {
             </Container>
 
             <Carousel />
-          </Box>
+          </Box> */}
 
-          <HomeMinimal id="features" />
+          {/* <HomeMinimal id="features" /> */}
 
           {/* // TODO RUN ANY KIND OF BUSINESS => SLICK CAROUSEL => AUTO PLAY */}
 
@@ -74,8 +74,8 @@ export default function HomePage() {
           {/* <HomePricingPlans /> */}
 
           {/* SIGN UP TODAY => CTA */}
-          <HomeAdvertisement />
-        </ContentStyle>
+          {/* <HomeAdvertisement /> */}
+        {/* </ContentStyle> */}
         {/* FOOTER => DONE IN LAYOUT */}
       </RootStyle>
     </Page>

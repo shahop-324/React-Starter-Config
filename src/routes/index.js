@@ -2,12 +2,6 @@ import { Suspense, lazy } from 'react';
 import { Navigate, useRoutes, useLocation } from 'react-router-dom';
 // layouts
 import MainLayout from '../layouts/main';
-import LogoOnlyLayout from '../layouts/LogoOnlyLayout';
-// guards
-import GuestGuard from '../guards/GuestGuard';
-// import RoleBasedGuard from '../guards/RoleBasedGuard';
-// config
-import { PATH_AFTER_LOGIN } from '../config';
 // components
 import LoadingScreen from '../components/LoadingScreen';
 

@@ -2,7 +2,9 @@ import PropTypes from 'prop-types';
 import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import { Box } from '@mui/material';
-import LogoImg from "../assets/QwikShop_logo.png";
+
+
+const LogoImg = 'https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg';
 
 // ----------------------------------------------------------------------
 

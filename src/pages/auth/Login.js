@@ -87,9 +87,7 @@ export default function Login() {
           {smUp && (
             <Typography variant="body2" sx={{ mt: { md: -2 } }}>
               Don’t have an account? {''}
-              <Link variant="subtitle2" component={RouterLink} to={PATH_AUTH.register}>
-                Get started
-              </Link>
+             
             </Typography>
           )}
         </HeaderStyle>
@@ -127,17 +125,15 @@ export default function Login() {
              Forgot Password?
               
             </Typography> */}
-           <Link href="/auth/reset-password">
+           {/* <Link href="/auth/reset-password">
            <Button color="primary" sx={{my: 2}}  >Forgot Password?</Button>
-           </Link>
+           </Link> */}
            
 
             {!smUp && (
               <Typography variant="body2" align="center" sx={{ mt: 3 }}>
                 Don’t have an account?{' '}
-                <Link variant="subtitle2" component={RouterLink} to={PATH_AUTH.register}>
-                  Get started
-                </Link>
+               
               </Typography>
             )}
           </ContentStyle>

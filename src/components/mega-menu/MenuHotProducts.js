@@ -16,7 +16,7 @@ export default function MenuHotProducts({ tags, ...other }) {
         Hot Products:
       </Typography>
       &nbsp;
-      {tags.map((tag, index) => (
+      {/* {tags.map((tag, index) => (
         <Link
           component={RouterLink}
           key={tag.name}
@@ -31,7 +31,7 @@ export default function MenuHotProducts({ tags, ...other }) {
         >
           {index === 0 ? tag.name : `, ${tag.name} `}
         </Link>
-      ))}
+      ))} */}
     </Box>
   );
 }

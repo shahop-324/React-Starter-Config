@@ -94,9 +94,7 @@ export default function Register() {
           {smUp && (
             <Typography variant="body2" sx={{ mt: { md: -2 } }}>
               Already have an account?{' '}
-              <Link variant="subtitle2" component={RouterLink} to={PATH_AUTH.login}>
-                Login
-              </Link>
+             
             </Typography>
           )}
         </HeaderStyle>
@@ -126,22 +124,20 @@ export default function Register() {
             <RegisterForm />
             <Typography variant="body2" align="center" sx={{ color: 'text.secondary', mt: 3 }}>
               By registering, I agree to QwikShop&nbsp;
-              <Link underline="always" color="text.primary" href="/terms-of-service">
+              {/* <Link underline="always" color="text.primary" href="/terms-of-service">
                 Terms of Service
-              </Link>
+              </Link> */}
               {'  '} and {'  '}
-              <Link underline="always" color="text.primary" href="/privacy-policy">
+              {/* <Link underline="always" color="text.primary" href="/privacy-policy">
                 Privacy Policy
-              </Link>
+              </Link> */}
               .
             </Typography>
 
             {!smUp && (
               <Typography variant="body2" sx={{ mt: 3, textAlign: 'center' }}>
                 Already have an account?{' '}
-                <Link variant="subtitle2" to={PATH_AUTH.login} component={RouterLink}>
-                  Login
-                </Link>
+               
               </Typography>
             )}
           </ContentStyle>

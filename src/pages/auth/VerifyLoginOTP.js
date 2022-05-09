@@ -72,22 +72,22 @@ export default function VerifyCode() {
             <Typography variant="body2" align="center">
               Don’t have a code? &nbsp;
               {!isReSendingOTP ? (
-                <Link
-                  className="hoverable"
-                  variant="subtitle2"
-                  underline="none"
-                  onClick={() => {
-                    if (!mobile) {
-                      dispatch(showSnackbar('error', 'Bad request'));
-                      return;
-                    }
-                    dispatch(resendMobileOTPForLogin(mobile));
-                  }}
-                >
-                  <a href="#" style={{ textDecoration: 'none' }}>
-                    Resend code
-                  </a>
-                </Link>
+                // <Link
+                //   className="hoverable"
+                //   variant="subtitle2"
+                //   underline="none"
+                //   onClick={() => {
+                //     if (!mobile) {
+                //       dispatch(showSnackbar('error', 'Bad request'));
+                //       return;
+                //     }
+                //     dispatch(resendMobileOTPForLogin(mobile));
+                //   }}
+                // >
+                //   <a href="#" style={{ textDecoration: 'none' }}>
+                //     Resend code
+                //   </a>
+                // </Link>
               ) : (
                 <div className="spinner-border text-success" role="status">
                   {/*  */}

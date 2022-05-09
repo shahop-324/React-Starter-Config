@@ -55,7 +55,7 @@ export default function MenuCarousel({ products, numberShow, sx }) {
         }}
       >
         <Slider ref={carouselRef} {...settings}>
-          {products.map((product) => (
+          {/* {products.map((product) => (
             <Box key={product.name} sx={{ px: 1, textAlign: 'center' }}>
               <Link
                 component={RouterLink}
@@ -74,7 +74,7 @@ export default function MenuCarousel({ products, numberShow, sx }) {
                 </TextMaxLine>
               </Link>
             </Box>
-          ))}
+          ))} */}
         </Slider>
       </CarouselArrows>
     </Box>

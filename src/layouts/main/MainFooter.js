@@ -12,35 +12,7 @@ import SocialsButton from '../../components/SocialsButton';
 
 
 
-const LINKS = [
-  
-  {
-    headline: 'QwikShop',
-    children: [
-      { name: 'About us', href: PATH_PAGE.about },
-      { name: 'Contact us', href: PATH_PAGE.contact },
-      { name: 'FAQs', href: PATH_PAGE.faqs },
-      // { name: 'Blog', href: PATH_PAGE.faqs },  
-    ],
-  },
-  {
-    headline: 'Legal',
-    children: [
-      { name: 'Terms and Condition', href: '/terms-of-service' },
-      { name: 'Privacy Policy', href: '/privacy-policy' },
-      { name: 'Return & Refund Policy', href: '/refund-policy' },
-    ],
-  },
-  
-  {
-    headline: 'Contact',
-    children: [
-      { name: 'support@qwikshop.online', href: '#' },
-      { name: 'EE 738 DEEN DAYAL NAGAR, GWALIOR, MP, 474020', href: '#' },
-    ],
-  },
-  
-];
+
 
 const RootStyle = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -82,25 +54,7 @@ export default function MainFooter() {
               direction={{ xs: 'column', md: 'row' }}
               justifyContent="space-between"
             >
-              {LINKS.map((list) => (
-                <Stack key={list.headline} spacing={2}>
-                  <Typography component="p" variant="overline">
-                    {list.headline}
-                  </Typography>
-                  {list.children.map((link) => (
-                    <Link
-                      to={link.href}
-                      key={link.name}
-                      color="inherit"
-                      variant="body2"
-                      component={RouterLink}
-                      sx={{ display: 'block' }}
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                </Stack>
-              ))}
+              
             </Stack>
           </Grid>
         </Grid>
