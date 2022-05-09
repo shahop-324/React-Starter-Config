@@ -1,42 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 1.Install
+# Zevi Frontend
 
-### npm
+This repo contains solution to problem 1 and 2 written using react.js, react router, redux and Matrial UI.
 
-```
-npm i
-or
-npm i --legacy-peer-deps
-```
+This repo is created using same file architecture which I use for my real project and it allows anyone to understand code
+properly and make changes.
 
-### yarn
 
-```
-yarn install
-```
 
-## 2.Start
 
-```sh
-npm start
-or
-yarn start
-```
+## How to use
 
-## 3.Build
+#NOTE: Please start Node server using other repository in order to fetch images using API before running this app.
 
-```sh
-npm run build or yarn build
-```
+Clone the repository and then:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step 1. Install Dependencies using npm.
 
-The build is minified and the filenames include the hashes.<br>
+sudo npm install
 
-Your app is ready to be deployed.
+Step 2. Start Application in development mode using 
 
-## User Guide
+sudo npm run start 
 
-You can find detailed instructions on using Create React App and many tips in [its documentation](https://facebook.github.io/create-react-app/).
+This will start App at port 4000
+
+You can view solution to problem 1 and 2 by clicking on navigation buttons at top
+
+
+
+
+
+## Authors
+
+- [@shahop-324](https://www.github.com/shahop-324)
+
