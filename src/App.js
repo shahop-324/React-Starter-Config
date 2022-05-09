@@ -75,13 +75,13 @@ export default function App() {
           autoHideDuration={4000}
           key={vertical + horizontal}
           onClose={() => {
-            console.log('This is clicked');
+            
             dispatch(snackbarActions.closeSnackBar());
           }}
         >
           <Alert
             onClose={() => {
-              console.log('This is clicked');
+              
               dispatch(snackbarActions.closeSnackBar());
             }}
             severity={severity}

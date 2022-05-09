@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 // pages
 import { useSelector } from 'react-redux';
-import Login from '../pages/auth/Login';
 // components
 import LoadingScreen from '../components/LoadingScreen';
 
