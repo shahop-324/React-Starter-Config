@@ -71,28 +71,7 @@ export default function VerifyCode() {
 
             <Typography variant="body2" align="center">
               Don’t have a code? &nbsp;
-              {!isReSendingOTP ? (
-                // <Link
-                //   className="hoverable"
-                //   variant="subtitle2"
-                //   underline="none"
-                //   onClick={() => {
-                //     if (!email) {
-                //       dispatch(showSnackbar('error', 'Bad request'));
-                //       return;
-                //     }
-                //     dispatch(resendEmailOTP(email));
-                //   }}
-                // >
-                //   <a href="#" style={{ textDecoration: 'none' }}>
-                //     Resend code
-                //   </a>
-                // </Link>
-              ) : (
-                <div className="spinner-border text-success" role="status">
-                  {/*  */}
-                </div>
-              )}
+              
             </Typography>
           </Box>
         </Container>

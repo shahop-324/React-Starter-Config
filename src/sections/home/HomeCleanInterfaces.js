@@ -1,11 +1,11 @@
 // @mui
 import "react-phone-number-input/style.css";
-import { useState } from "react";
+// import { useState } from "react";
 import { styled } from "@mui/material/styles";
-import { Box, Container, Typography, Button, Stack } from "@mui/material";
-import StoreMallDirectoryRoundedIcon from "@mui/icons-material/StoreMallDirectoryRounded";
+import { Box, Container, Typography, } from "@mui/material";
+// import StoreMallDirectoryRoundedIcon from "@mui/icons-material/StoreMallDirectoryRounded";
 
-import PhoneInput from "react-phone-number-input";
+// import PhoneInput from "react-phone-number-input";
 // components
 import Image from "../../components/Image";
 // Phone Input
@@ -20,7 +20,7 @@ const RootStyle = styled("div")(({ theme }) => ({
 // ----------------------------------------------------------------------
 
 export default function HomeCleanInterfaces() {
-  const [phone, setPhone] = useState("");
+  // const [phone, setPhone] = useState("");
 
   return (
     <RootStyle>
