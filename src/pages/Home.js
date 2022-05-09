@@ -32,9 +32,9 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function HomePage() {
   return (
-    <Page title="Create your online business in 15 Seconds">
+    <Page title="Enable users to find what they want in the most natural and efficient way">
       <RootStyle>
-        {/* <HomeHero /> */}
+        <HomeHero />
         {/* <ContentStyle> */}
           {/* BRING ONLINE */}
 

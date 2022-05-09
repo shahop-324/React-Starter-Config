@@ -64,57 +64,29 @@ export default function HomeHero() {
   return (
     <MotionContainer>
       <RootStyle>
-        {isDesktop && (
-          <HeroImgStyle
-            alt="hero"
-            src={'https://qwikshop.s3.ap-south-1.amazonaws.com/images/hero.png'}
-            variants={varFade().inUp}
-          />
-        )}
+        
+        {/* Can Use Hero Image Based on Device using isDesktop */}
 
         <Container>
           <ContentStyle>
             <m.div variants={varFade().inRight}>
               <Typography variant="h2" sx={{ color: '#FFFFFF' }}>
-                Start selling online <br />
-                for free in
-                <Typography component="span" variant="h2" sx={{ color: 'primary.main' }}>
-                  &nbsp;India
-                </Typography>
+                Assessment For Zevi  <br />
+                Senior FrontEnd Engineer
+                
               </Typography>
             </m.div>
 
             <m.div variants={varFade().inRight}>
               <Typography sx={{ color: '#ffffff' }}>
-                The starting point for your next online business, QwikShop allows you to run your online business
-                without techincal knowledge.
+                Please click on Above Links in Navigation to see solution to assignment problems.
               </Typography>
             </m.div>
 
             <m.div variants={varFade().inRight}>
-              {/* <a style={{textDecoration: 'none'}} download="qwikshop" href="https://qwikshop.s3.ap-south-1.amazonaws.com/AppRevision/Android/app.apk" >
-              <Button
-                startIcon={<AndroidRounded width={20} height={20} />}
-                size="large"
-                variant="contained"
-                // component={RouterLink}
-                // to={PATH_AUTH.register}
-                color={'primary'}
-                // startIcon={<Iconify icon={'eva:flash-fill'} width={20} height={20} />}
-              >
-                Download App
-              </Button>
-              </a> */}
-
-              <div className={!isDesktop && 'd-flex flex-row align-items-center justify-content-center'}>
-                <a href="https://play.google.com/store/apps/details?id=online.qwikshop.bluemeet">
-                  <img
-                    style={{ maxWidth: '200px' }}
-                    alt="Get it on Google Play"
-                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                  />
-                </a>
-              </div>
+             
+{/* Right Floating Content */}
+             
             </m.div>
           </ContentStyle>
         </Container>

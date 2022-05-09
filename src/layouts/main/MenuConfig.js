@@ -17,19 +17,14 @@ const menuConfig = [
   },
   
   {
-    title: 'Features',
+    title: 'Problem 1',
     icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
-    path: '#features',
+    path: '/problem-1',
   },
-  // {
-  //   title: 'Pricing',
-  //   icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
-  //   path: '/pricing',
-  // },
   {
-    title: 'Login',
+    title: 'Problem 2',
     icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
-    path: '/auth/login',
+    path: '/problem-2',
   },
 ];
 

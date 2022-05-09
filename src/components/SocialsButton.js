@@ -20,7 +20,7 @@ export default function SocialsButton({ initialColor = false, simple = true, sx,
       name: 'FaceBook',
       icon: 'eva:facebook-fill',
       socialColor: '#1877F2',
-      path: 'https://www.facebook.com/QwikShop-106478858632254',
+      path: 'https://www.facebook.com/Zevi-106478858632254',
     },
     {
       name: 'Instagram',

@@ -16,6 +16,8 @@ import MenuDesktop from './MenuDesktop';
 import MenuMobile from './MenuMobile';
 import navConfig from './MenuConfig';
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 // ----------------------------------------------------------------------
 
 const ToolbarStyle = styled(Toolbar)(({ theme }) => ({
@@ -79,8 +81,8 @@ export default function MainHeader() {
 
           {isDesktop && <MenuDesktop isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}
 
-          <Button variant="outlined" target="_blank" rel="noopener" href="/auth/register">
-            Launch my business
+          <Button startIcon={<GitHubIcon />} variant="outlined" target="_blank" rel="noopener" href={`//${'github.com/shahop-324/zevi_frontend'}`}>
+            Source Code
           </Button>
 
           {!isDesktop && <MenuMobile isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}

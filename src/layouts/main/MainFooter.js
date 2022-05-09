@@ -36,16 +36,10 @@ export default function MainFooter() {
           </Grid>
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-            QwikShop is the Easiest and Powerful way to sell online
+            Enable users to find what they want in the most natural and efficient way
             </Typography>
 
-            <Stack
-              direction="row"
-              justifyContent={{ xs: 'center', md: 'flex-start' }}
-              sx={{ mt: 5, mb: { xs: 5, md: 0 } }}
-            >
-              <SocialsButton sx={{ mx: 0.5 }} />
-            </Stack>
+           
           </Grid>
 
           <Grid item xs={12} md={7}>
@@ -69,7 +63,7 @@ export default function MainFooter() {
             textAlign: { xs: 'center', md: 'left' },
           }}
         >
-          © 2022. All rights reserved. BLUEMEET PRIVATE LIMITED
+           Assignment By Zevi.
         </Typography>
       </Container>
     </RootStyle>

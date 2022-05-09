@@ -57,7 +57,7 @@ export default function HomeAdvertisement() {
           <MotionInView variants={varFade().inDown} sx={{ color: 'common.white', mb: 5 }}>
             <Typography variant="h2">
               Get started with
-              <br /> QwikShop today
+              <br /> Zevi today
             </Typography>
           </MotionInView>
           <MotionInView variants={varFade().inDown}>

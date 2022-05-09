@@ -102,7 +102,7 @@ export default function Register() {
         {mdUp && (
           <SectionStyle>
             <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
-              Take your business online with QwikShop
+              Take your business online with Zevi
             </Typography>
             <Image
               alt="register"
@@ -123,7 +123,7 @@ export default function Register() {
             </Box>
             <RegisterForm />
             <Typography variant="body2" align="center" sx={{ color: 'text.secondary', mt: 3 }}>
-              By registering, I agree to QwikShop&nbsp;
+              By registering, I agree to Zevi&nbsp;
               {/* <Link underline="always" color="text.primary" href="/terms-of-service">
                 Terms of Service
               </Link> */}

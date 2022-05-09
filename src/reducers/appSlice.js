@@ -4,13 +4,13 @@ const appSlice = createSlice({
   name: 'app',
 
   initialState: {
-    subname: [],
+    images: [],
     error: false,
   },
 
   reducers: {
-    FetchSubnames(state, action) {
-      state.subname = action.payload.subname;
+    FetchImages(state, action) {
+      state.images = action.payload.images;
     },
   },
 });

@@ -31,7 +31,7 @@ const CARDS = [
     icon: 'https://minimal-assets-api.vercel.app/assets/icons/ic_code.svg',
     title: 'Unique Themes',
     description:
-      'Get your Business a theme which suits it Best. QwikShop Gives you the power to choose your theme based on your type of Business.',
+      'Get your Business a theme which suits it Best. Zevi Gives you the power to choose your theme based on your type of Business.',
   },
   {
     isIcon: true,
@@ -47,7 +47,7 @@ const CARDS = [
       />
     ),
     title: 'Custom Domain & Email',
-    description: 'Get your own Custom domain and Business Email for free when you upgrade to QwikShop Premium.',
+    description: 'Get your own Custom domain and Business Email for free when you upgrade to Zevi Premium.',
   },
   {
     isIcon: true,
@@ -63,7 +63,7 @@ const CARDS = [
       />
     ),
     title: 'Online Payments',
-    description: 'You can accept payments online using Upi, Wallet, Debit/Credit card and Netbanking on QwikShop. QwikShop Supports 100+ Payment methods so you cannot missout on any possible order.',
+    description: 'You can accept payments online using Upi, Wallet, Debit/Credit card and Netbanking on Zevi. Zevi Supports 100+ Payment methods so you cannot missout on any possible order.',
   },
   {
 
@@ -80,7 +80,7 @@ const CARDS = [
       />
     ),
     title: 'Integrations',
-    description: 'You can use various plugins which are available to you on QwikShop that will enable you to run efficient marketing campaigns and derive more sales for your business.',
+    description: 'You can use various plugins which are available to you on Zevi that will enable you to run efficient marketing campaigns and derive more sales for your business.',
   },
   {
     isIcon: true,
@@ -108,7 +108,7 @@ const CARDS = [
       }} />
     ),
     title: 'Delivery',
-    description: 'You can make use of Delivery service provided by QwikShop for shipping your orders or you can also ship them on your own and manage from dashboard.',
+    description: 'You can make use of Delivery service provided by Zevi for shipping your orders or you can also ship them on your own and manage from dashboard.',
   },
   {
     isIcon: true,
@@ -151,7 +151,7 @@ const CARDS = [
       }} />
     ),
     title: 'Referral',
-    description: 'You can assign people to bring more customers to your site and give them comissions, this can be easily done from QwikShop Dashboard.',
+    description: 'You can assign people to bring more customers to your site and give them comissions, this can be easily done from Zevi Dashboard.',
   },
   {
     icon: (
@@ -173,7 +173,7 @@ const CARDS = [
       <ShoppingCartIcon sx={{mb: 10, mx: 'auto', width: 40, height: 40, color: "#CAC361"}} />
     ),
     title: 'Variant Based Pricing',
-    description: 'You can sell various products based on Variants and quantity. You can create your pricing structure easily from QwikShop Dashboard.',
+    description: 'You can sell various products based on Variants and quantity. You can create your pricing structure easily from Zevi Dashboard.',
   },
   {
     isIcon: true,
@@ -273,7 +273,7 @@ export default function HomeMinimal() {
         >
           <MotionInView variants={varFade().inUp}>
             <Typography component="div" variant="overline" sx={{ mb: 2, color: 'text.disabled' }}>
-              QwikShop
+              Zevi
             </Typography>
           </MotionInView>
           <MotionInView variants={varFade().inDown}>

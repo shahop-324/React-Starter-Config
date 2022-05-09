@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Box } from '@mui/material';
 
 
-const LogoImg = 'https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg';
+const LogoImg = 'https://media-exp1.licdn.com/dms/image/C560BAQF52Zo0u13nuQ/company-logo_200_200/0/1632122032773?e=2147483647&v=beta&t=YHnHAdVcakCRauxH1M_dY4817gPZeEWO5Qt8jM0mfc0';
 
 // ----------------------------------------------------------------------
 

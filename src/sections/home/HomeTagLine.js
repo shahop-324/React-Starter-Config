@@ -16,7 +16,7 @@ const HomeTagLine = () => (
            Just follow 3 easy Steps
           </Typography>
           <Typography variant="subtitle1" color="primary">
-            QwikShop is very easy to setup and start your online business
+          Enable users to find what they want in the most natural and efficient way
           </Typography>
         </Card>
       </Box>

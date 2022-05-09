@@ -69,7 +69,7 @@ export default function HomeHugePackElements() {
                   color: isLight ? 'text.secondary' : 'common.white',
                 }}
               >
-                QwikShop has everything you need to create, manage and run your online business smoothly and
+                Zevi has everything you need to create, manage and run your online business smoothly and
                 effortlessly.
               </Typography>
 
