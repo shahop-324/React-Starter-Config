@@ -1,12 +1,20 @@
 
-# Zevi Frontend
+# React Project Starter Config
 
-This repo contains solution to problem 1 and 2 written using react.js, react router, redux and Matrial UI.
+This repo contains a robust architecture to kickstart a react project and reduce development time many times.
 
-This repo is created using same file architecture which I use for my real project and it allows anyone to understand code
-properly and make changes.
+Contents:
 
-
+1. Hooks
+2. Components
+3. Routing
+4. Redux Toolkit
+5. Layouts
+6. Locales
+7. Themes
+8. Context 
+9. Sections & Pages
+10. Reducers & Actions
 
 
 ## How to use
@@ -24,12 +32,6 @@ Step 2. Start Application in development mode using
 sudo npm run start 
 
 This will start App at port 4000
-
-You can view solution to problem 1 and 2 by clicking on navigation buttons at top
-
-
-
-
 
 ## Authors
 
